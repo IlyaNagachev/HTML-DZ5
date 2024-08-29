@@ -9,6 +9,7 @@
 
 body {
     scroll-behavior: smooth;
+    background: rgb(250, 250, 250);
 }
 
 img {
@@ -101,4 +102,149 @@ button {
     justify-content: space-between;
     height: 50px;
     gap: 48px;
+}
+
+.cardList {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    height: 491px;
+}
+
+.card1Big {
+    min-width: 370px;
+    min-height: 291px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.card1 img {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 29px;
+}
+
+.card1Big img {
+    margin-left: 30px;
+}
+
+.card1 h2 {
+    margin-bottom: 17px;
+    margin-left: 29px;
+}
+
+.card1 {
+    width: 310px;
+    height: 226px;
+}
+
+.cardList h2 {
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.cardList p {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+    margin-bottom: 25px;
+    margin-left: 29px;
+}
+
+.cardList button {
+    background-color: transparent;
+    border: 0;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 29px;
+}
+
+
+
+.mainText h2 {
+    margin-left: 302px;
+    margin-bottom: 19px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+}
+
+.mainText p {
+    text-align: center;
+    min-width: 682px;
+    min-height: 48px;
+    margin-left: 251;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.cardChoose {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 919px;
+}
+
+.card2Big {
+    min-width: 370px;
+    min-height: 549px;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.card2 img {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+.card2Big h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+
+}
+.card2 {
+    width: 370px;
+    height: 549px;
+    background: rgb(255, 255, 255);
+}
+
+.cardChoose h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 92px;
+    margin-bottom: 22px;
+    
+}
+
+.cardChoose p {
+    text-align: center;
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 39px;
+    margin-left: 30px;
+}
+
+.cardChoose button {
+    margin-left: 100px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: rgb(242, 88, 34);;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    
 }
